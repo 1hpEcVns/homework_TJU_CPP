@@ -239,9 +239,8 @@ int main() {
 
                  print_student_table(
                      std::format("List: Scoring >= Average ({:.2f})", average_score),
-                     // FIX 3 & 4: Correct lambda capture and ensure pipe works
                      view | std::views::filter([average_score](const Student& s){ return s.score >= average_score; })
-                     , // FIX 5: Added missing comma
+                     , 
                      true
                  );
             }
