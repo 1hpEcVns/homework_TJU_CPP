@@ -1,0 +1,5 @@
+-std=c++23
+-stdlib=libc++
+-I/usr/include/c++/v1
+-Wno-c++98-compat
+-Wno-c++98-compat-pedantic 

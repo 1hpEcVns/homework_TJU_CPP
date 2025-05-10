@@ -1,0 +1,3 @@
+Language: Cpp
+Standard: Latest
+BasedOnStyle: LLVM 

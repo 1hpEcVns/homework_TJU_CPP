@@ -1,0 +1,22 @@
+CompileFlags:
+  Add: 
+    - "-std=c++23"
+    - "-stdlib=libc++"
+    - "-fexperimental-library"
+    - "-Wl,-rpath,C:/Users/18276/scoop/apps/llvm/20.1.4/lib"
+    - "-IC:/Users/18276/scoop/apps/llvm/20.1.4/include/c++/v1"
+
+Diagnostics:
+  ClangTidy:
+    Add:
+      - modernize-*
+      - performance-*
+      - readability-*
+      - bugprone-*
+      - clang-analyzer-*
+      - misc-*
+
+InlayHints:
+  Enabled: true
+  ParameterNames: true
+  DeducedTypes: true 

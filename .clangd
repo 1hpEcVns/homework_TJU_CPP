@@ -1,7 +1,14 @@
 CompileFlags:
-  Add: [-std=c++26] 
+  Add: [-std=c++23, -stdlib=libc++] 
 Diagnostics:
   ClangTidy:
+    Add:
+      - modernize-*
+      - performance-*
+      - readability-*
+      - bugprone-*
+      - clang-analyzer-*
+      - misc-*
 InlayHints:
   Enabled: true
   ParameterNames: true
