@@ -1,0 +1,8 @@
+CompileFlags:
+  Add: [-std=c++26] 
+Diagnostics:
+  ClangTidy:
+InlayHints:
+  Enabled: true
+  ParameterNames: true
+  DeducedTypes: true
